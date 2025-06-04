@@ -1,10 +1,10 @@
 package org.ocptest.chapter1.assessmentTest;
 
-public class Question1 {
+public class Question01 {
     public static void main(String[] args) {
 
         final int score1 = 8, score2 = 3;
-        Integer myScore = 9;
+        Integer myScore = 7;
         var goal = switch (myScore){
             case score1, score2, 7 -> "good";
             case Integer i when i < 10 -> {
